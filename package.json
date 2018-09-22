@@ -1,0 +1,2116 @@
+{
+  "ok": false,
+  "vulnerabilities": [
+    {
+      "CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L",
+      "alternativeIds": [
+        "SNYK-JS-CHOWNR-12184"
+      ],
+      "creationTime": "2018-07-31T16:51:47Z",
+      "credit": [
+        "pravi"
+      ],
+      "cvssScore": 4.4,
+      "description": "## Overview\nAffected versions of [chownr](https://www.npmjs.com/package/chownr) are vulnerable to Time of Check Time of Use (TOCTOU). It does not dereference symbolic links and changes the owner of the link.\n\n## Remediation\nThere is no fix version for `chownr`.\n\n## References\n- [GitHub Issue](https://github.com/isaacs/chownr/issues/14)",
+      "disclosureTime": "2018-07-31T16:51:47Z",
+      "id": "npm:chownr:20180731",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-CHOWNR-12184"
+        ],
+        "CVE": [],
+        "CWE": [
+          "CWE-264"
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:49.047087Z",
+      "moduleName": "chownr",
+      "packageManager": "npm",
+      "packageName": "chownr",
+      "patches": [],
+      "publicationTime": "2018-07-31T13:43:37.776000Z",
+      "references": [
+        {
+          "title": "GitHub Issue",
+          "url": "https://github.com/isaacs/chownr/issues/14"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "severity": "medium",
+      "title": "Time of Check Time of Use (TOCTOU)",
+      "from": [
+        "atom@atom/atom",
+        "@atom/watcher@1.0.8",
+        "node-pre-gyp@0.10.3",
+        "tar@4.4.6",
+        "chownr@1.1.1"
+      ],
+      "upgradePath": [],
+      "version": "1.1.1",
+      "name": "chownr",
+      "isUpgradable": false,
+      "isPatchable": false
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L",
+      "alternativeIds": [
+        "SNYK-JS-CHOWNR-12184"
+      ],
+      "creationTime": "2018-07-31T16:51:47Z",
+      "credit": [
+        "pravi"
+      ],
+      "cvssScore": 4.4,
+      "description": "## Overview\nAffected versions of [chownr](https://www.npmjs.com/package/chownr) are vulnerable to Time of Check Time of Use (TOCTOU). It does not dereference symbolic links and changes the owner of the link.\n\n## Remediation\nThere is no fix version for `chownr`.\n\n## References\n- [GitHub Issue](https://github.com/isaacs/chownr/issues/14)",
+      "disclosureTime": "2018-07-31T16:51:47Z",
+      "id": "npm:chownr:20180731",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-CHOWNR-12184"
+        ],
+        "CVE": [],
+        "CWE": [
+          "CWE-264"
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:49.047087Z",
+      "moduleName": "chownr",
+      "packageManager": "npm",
+      "packageName": "chownr",
+      "patches": [],
+      "publicationTime": "2018-07-31T13:43:37.776000Z",
+      "references": [
+        {
+          "title": "GitHub Issue",
+          "url": "https://github.com/isaacs/chownr/issues/14"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "severity": "medium",
+      "title": "Time of Check Time of Use (TOCTOU)",
+      "from": [
+        "atom@atom/atom",
+        "tree-sitter@0.13.13",
+        "prebuild-install@5.1.0",
+        "tar-fs@1.16.3",
+        "chownr@1.1.1"
+      ],
+      "upgradePath": [],
+      "version": "1.1.1",
+      "name": "chownr",
+      "isUpgradable": false,
+      "isPatchable": false
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "alternativeIds": [
+        "SNYK-JS-CRYPTILES-12176"
+      ],
+      "creationTime": "2018-07-10T07:33:37.875000Z",
+      "credit": [
+        "Microsoft Vulnerability Research"
+      ],
+      "cvssScore": 5.3,
+      "description": "## Overview\n[cryptiles](https://www.npmjs.com/package/cryptiles) is a package for general crypto utilities.\n\nAffected versions of this package are vulnerable to Insecure Randomness. The `randomDigits()` method is supposed to return a cryptographically strong pseudo-random data string, but it was biased to certain digits. An attacker could be able to guess the created digits.\n\n## Remediation\nUpgrade to version 4.1.2 and higher.\n\n## References\n- [GitHub Issue](https://github.com/hapijs/cryptiles/issues/34)\n- [GitHub Commit](https://github.com/hapijs/cryptiles/commit/9332d4263a32b84e76bf538d7470d01ea63fa047)\n",
+      "disclosureTime": "2018-07-10T07:33:37.875000Z",
+      "id": "npm:cryptiles:20180710",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-CRYPTILES-12176"
+        ],
+        "CVE": [
+          "CVE-2018-1000620"
+        ],
+        "CWE": [
+          "CWE-331"
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:49.011742Z",
+      "moduleName": "cryptiles",
+      "packageManager": "npm",
+      "packageName": "cryptiles",
+      "patches": [],
+      "publicationTime": "2018-07-19T14:10:10.299000Z",
+      "references": [
+        {
+          "title": "GitHub Commit",
+          "url": "https://github.com/hapijs/cryptiles/commit/9332d4263a32b84e76bf538d7470d01ea63fa047"
+        },
+        {
+          "title": "GitHub Issue",
+          "url": "https://github.com/hapijs/cryptiles/issues/34"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<4.1.2"
+        ]
+      },
+      "severity": "medium",
+      "title": "Insecure Randomness",
+      "from": [
+        "atom@atom/atom",
+        "less-cache@1.1.0",
+        "less@2.7.3",
+        "request@2.81.0",
+        "hawk@3.1.3",
+        "cryptiles@2.0.5"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        "less@3.0.2",
+        "request@2.84.0",
+        "hawk@7.0.7",
+        "cryptiles@4.1.2"
+      ],
+      "version": "2.0.5",
+      "name": "cryptiles",
+      "isUpgradable": false,
+      "isPatchable": false
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "alternativeIds": [
+        "SNYK-JS-DEBUG-10762"
+      ],
+      "creationTime": "2017-09-13T07:55:05.106000Z",
+      "credit": [
+        "Cristian-Alexandru Staicu"
+      ],
+      "cvssScore": 3.7,
+      "description": "## Overview\r\n[`debug`](https://www.npmjs.com/package/debug) is a JavaScript debugging utility modelled after Node.js core's debugging technique..\r\n\r\n`debug` uses [printf-style](https://wikipedia.org/wiki/Printf_format_string) formatting. Affected versions of this package are vulnerable to Regular expression Denial of Service (ReDoS) attacks via the the `%o` formatter (Pretty-print an Object all on a single line). It used a regular expression (`/\\s*\\n\\s*/g`) in order to strip whitespaces and replace newlines with spaces, in order to join the data into a single line. This can cause a very low impact of about 2 seconds matching time for data 50k characters long.\r\n\r\n## Details\r\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its original and legitimate users. There are many types of DoS attacks, ranging from trying to clog the network pipes to the system by generating a large volume of traffic from many machines (a Distributed Denial of Service - DDoS - attack) to sending crafted requests that cause a system to crash or take a disproportional amount of time to process.\r\n\r\nThe Regular expression Denial of Service (ReDoS) is a type of Denial of Service attack. Regular expressions are incredibly powerful, but they aren't very intuitive and can ultimately end up making it easy for attackers to take your site down.\r\n\r\nLet’s take the following regular expression as an example:\r\n```js\r\nregex = /A(B|C+)+D/\r\n```\r\n\r\nThis regular expression accomplishes the following:\r\n- `A` The string must start with the letter 'A'\r\n- `(B|C+)+` The string must then follow the letter A with either the letter 'B' or some number of occurrences of the letter 'C' (the `+` matches one or more times). The `+` at the end of this section states that we can look for one or more matches of this section.\r\n- `D` Finally, we ensure this section of the string ends with a 'D'\r\n\r\nThe expression would match inputs such as `ABBD`, `ABCCCCD`, `ABCBCCCD` and `ACCCCCD`\r\n\r\nIt most cases, it doesn't take very long for a regex engine to find a match:\r\n\r\n```bash\r\n$ time node -e '/A(B|C+)+D/.test(\"ACCCCCCCCCCCCCCCCCCCCCCCCCCCCD\")'\r\n0.04s user 0.01s system 95% cpu 0.052 total\r\n\r\n$ time node -e '/A(B|C+)+D/.test(\"ACCCCCCCCCCCCCCCCCCCCCCCCCCCCX\")'\r\n1.79s user 0.02s system 99% cpu 1.812 total\r\n```\r\n\r\nThe entire process of testing it against a 30 characters long string takes around ~52ms. But when given an invalid string, it takes nearly two seconds to complete the test, over ten times as long as it took to test a valid string. The dramatic difference is due to the way regular expressions get evaluated.\r\n\r\nMost Regex engines will work very similarly (with minor differences). The engine will match the first possible way to accept the current character and proceed to the next one. If it then fails to match the next one, it will backtrack and see if there was another way to digest the previous character. If it goes too far down the rabbit hole only to find out the string doesn’t match in the end, and if many characters have multiple valid regex paths, the number of backtracking steps can become very large, resulting in what is known as _catastrophic backtracking_.\r\n\r\nLet's look at how our expression runs into this problem, using a shorter string: \"ACCCX\". While it seems fairly straightforward, there are still four different ways that the engine could match those three C's:\r\n1. CCC\r\n2. CC+C\r\n3. C+CC\r\n4. C+C+C.\r\n\r\nThe engine has to try each of those combinations to see if any of them potentially match against the expression. When you combine that with the other steps the engine must take, we can use [RegEx 101 debugger](https://regex101.com/debugger) to see the engine has to take a total of 38 steps before it can determine the string doesn't match.\r\n\r\nFrom there, the number of steps the engine must use to validate a string just continues to grow.\r\n\r\n| String | Number of C's | Number of steps |\r\n| -------|-------------:| -----:|\r\n| ACCCX | 3 | 38\r\n| ACCCCX | 4 | 71\r\n| ACCCCCX | 5 | 136\r\n| ACCCCCCCCCCCCCCX | 14 | 65,553\r\n\r\n\r\nBy the time the string includes 14 C's, the engine has to take over 65,000 steps just to see if the string is valid. These extreme situations can cause them to work very slowly (exponentially related to input size, as shown above), allowing an attacker to exploit this and can cause the service to excessively consume CPU, resulting in a Denial of Service.\r\n\r\n\r\n## Remediation\r\nUpgrade `debug` to version 2.6.9, 3.1.0 or higher.\r\n\r\n## References\r\n- [GitHub Issue](https://github.com/visionmedia/debug/issues/501)\r\n- [GitHub PR](https://github.com/visionmedia/debug/pull/504)",
+      "disclosureTime": "2017-09-05T21:00:00Z",
+      "id": "npm:debug:20170905",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-DEBUG-10762"
+        ],
+        "CVE": [
+          "CVE-2017-16137"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          534
+        ]
+      },
+      "language": "js",
+      "method": {
+        "src/node.js": [
+          {
+            "name": [
+              "exports.formatters.o"
+            ],
+            "semver": [
+              "<2.6.9",
+              ">=3.0.0 <3.1.0"
+            ]
+          }
+        ]
+      },
+      "modificationTime": "2018-09-03T13:22:47.143145Z",
+      "moduleName": "debug",
+      "packageManager": "npm",
+      "packageName": "debug",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:debug:20170905:3",
+          "modificationTime": "2018-09-04T11:57:08.708662Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/debug/20170905/debug_20170905_0_3_f53962e944a87e6ca9bb622a2a12dffc22a9bb5a.patch"
+          ],
+          "version": ">=2.0.0 <2.4.0"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:debug:20170905:2",
+          "modificationTime": "2018-09-04T11:57:08.707464Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/debug/20170905/debug_20170905_0_2_f53962e944a87e6ca9bb622a2a12dffc22a9bb5a.patch"
+          ],
+          "version": ">=2.4.0 <2.5.0"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:debug:20170905:1",
+          "modificationTime": "2018-09-04T11:57:08.706019Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/debug/20170905/debug_20170905_0_1_f53962e944a87e6ca9bb622a2a12dffc22a9bb5a.patch"
+          ],
+          "version": ">=2.5.1 <2.6.9"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:debug:20170905:0",
+          "modificationTime": "2018-09-04T11:57:08.704803Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/debug/20170905/debug_20170905_0_0_c38a0166c266a679c8de012d4eaccec3f944e685.patch"
+          ],
+          "version": ">= 3.0.0 <=3.0.1"
+        }
+      ],
+      "publicationTime": "2017-09-26T03:55:05Z",
+      "references": [
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/visionmedia/debug/pull/504"
+        },
+        {
+          "title": "GitHub Issue",
+          "url": "https://github.com/visionmedia/debug/issues/501"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<2.6.9 || >=3.0.0 <3.1.0"
+        ]
+      },
+      "severity": "low",
+      "title": "Regular Expression Denial of Service (ReDoS)",
+      "from": [
+        "atom@atom/atom",
+        "fs-admin@0.1.7",
+        "mocha@3.5.3",
+        "debug@2.6.8"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        "mocha@4.0.0",
+        "debug@3.1.0"
+      ],
+      "version": "2.6.8",
+      "name": "debug",
+      "isUpgradable": false,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "alternativeIds": [
+        "SNYK-JS-DEBUG-10762"
+      ],
+      "creationTime": "2017-09-13T07:55:05.106000Z",
+      "credit": [
+        "Cristian-Alexandru Staicu"
+      ],
+      "cvssScore": 3.7,
+      "description": "## Overview\r\n[`debug`](https://www.npmjs.com/package/debug) is a JavaScript debugging utility modelled after Node.js core's debugging technique..\r\n\r\n`debug` uses [printf-style](https://wikipedia.org/wiki/Printf_format_string) formatting. Affected versions of this package are vulnerable to Regular expression Denial of Service (ReDoS) attacks via the the `%o` formatter (Pretty-print an Object all on a single line). It used a regular expression (`/\\s*\\n\\s*/g`) in order to strip whitespaces and replace newlines with spaces, in order to join the data into a single line. This can cause a very low impact of about 2 seconds matching time for data 50k characters long.\r\n\r\n## Details\r\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its original and legitimate users. There are many types of DoS attacks, ranging from trying to clog the network pipes to the system by generating a large volume of traffic from many machines (a Distributed Denial of Service - DDoS - attack) to sending crafted requests that cause a system to crash or take a disproportional amount of time to process.\r\n\r\nThe Regular expression Denial of Service (ReDoS) is a type of Denial of Service attack. Regular expressions are incredibly powerful, but they aren't very intuitive and can ultimately end up making it easy for attackers to take your site down.\r\n\r\nLet’s take the following regular expression as an example:\r\n```js\r\nregex = /A(B|C+)+D/\r\n```\r\n\r\nThis regular expression accomplishes the following:\r\n- `A` The string must start with the letter 'A'\r\n- `(B|C+)+` The string must then follow the letter A with either the letter 'B' or some number of occurrences of the letter 'C' (the `+` matches one or more times). The `+` at the end of this section states that we can look for one or more matches of this section.\r\n- `D` Finally, we ensure this section of the string ends with a 'D'\r\n\r\nThe expression would match inputs such as `ABBD`, `ABCCCCD`, `ABCBCCCD` and `ACCCCCD`\r\n\r\nIt most cases, it doesn't take very long for a regex engine to find a match:\r\n\r\n```bash\r\n$ time node -e '/A(B|C+)+D/.test(\"ACCCCCCCCCCCCCCCCCCCCCCCCCCCCD\")'\r\n0.04s user 0.01s system 95% cpu 0.052 total\r\n\r\n$ time node -e '/A(B|C+)+D/.test(\"ACCCCCCCCCCCCCCCCCCCCCCCCCCCCX\")'\r\n1.79s user 0.02s system 99% cpu 1.812 total\r\n```\r\n\r\nThe entire process of testing it against a 30 characters long string takes around ~52ms. But when given an invalid string, it takes nearly two seconds to complete the test, over ten times as long as it took to test a valid string. The dramatic difference is due to the way regular expressions get evaluated.\r\n\r\nMost Regex engines will work very similarly (with minor differences). The engine will match the first possible way to accept the current character and proceed to the next one. If it then fails to match the next one, it will backtrack and see if there was another way to digest the previous character. If it goes too far down the rabbit hole only to find out the string doesn’t match in the end, and if many characters have multiple valid regex paths, the number of backtracking steps can become very large, resulting in what is known as _catastrophic backtracking_.\r\n\r\nLet's look at how our expression runs into this problem, using a shorter string: \"ACCCX\". While it seems fairly straightforward, there are still four different ways that the engine could match those three C's:\r\n1. CCC\r\n2. CC+C\r\n3. C+CC\r\n4. C+C+C.\r\n\r\nThe engine has to try each of those combinations to see if any of them potentially match against the expression. When you combine that with the other steps the engine must take, we can use [RegEx 101 debugger](https://regex101.com/debugger) to see the engine has to take a total of 38 steps before it can determine the string doesn't match.\r\n\r\nFrom there, the number of steps the engine must use to validate a string just continues to grow.\r\n\r\n| String | Number of C's | Number of steps |\r\n| -------|-------------:| -----:|\r\n| ACCCX | 3 | 38\r\n| ACCCCX | 4 | 71\r\n| ACCCCCX | 5 | 136\r\n| ACCCCCCCCCCCCCCX | 14 | 65,553\r\n\r\n\r\nBy the time the string includes 14 C's, the engine has to take over 65,000 steps just to see if the string is valid. These extreme situations can cause them to work very slowly (exponentially related to input size, as shown above), allowing an attacker to exploit this and can cause the service to excessively consume CPU, resulting in a Denial of Service.\r\n\r\n\r\n## Remediation\r\nUpgrade `debug` to version 2.6.9, 3.1.0 or higher.\r\n\r\n## References\r\n- [GitHub Issue](https://github.com/visionmedia/debug/issues/501)\r\n- [GitHub PR](https://github.com/visionmedia/debug/pull/504)",
+      "disclosureTime": "2017-09-05T21:00:00Z",
+      "id": "npm:debug:20170905",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-DEBUG-10762"
+        ],
+        "CVE": [
+          "CVE-2017-16137"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          534
+        ]
+      },
+      "language": "js",
+      "method": {
+        "src/node.js": [
+          {
+            "name": [
+              "exports.formatters.o"
+            ],
+            "semver": [
+              "<2.6.9",
+              ">=3.0.0 <3.1.0"
+            ]
+          }
+        ]
+      },
+      "modificationTime": "2018-09-03T13:22:47.143145Z",
+      "moduleName": "debug",
+      "packageManager": "npm",
+      "packageName": "debug",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:debug:20170905:3",
+          "modificationTime": "2018-09-04T11:57:08.708662Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/debug/20170905/debug_20170905_0_3_f53962e944a87e6ca9bb622a2a12dffc22a9bb5a.patch"
+          ],
+          "version": ">=2.0.0 <2.4.0"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:debug:20170905:2",
+          "modificationTime": "2018-09-04T11:57:08.707464Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/debug/20170905/debug_20170905_0_2_f53962e944a87e6ca9bb622a2a12dffc22a9bb5a.patch"
+          ],
+          "version": ">=2.4.0 <2.5.0"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:debug:20170905:1",
+          "modificationTime": "2018-09-04T11:57:08.706019Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/debug/20170905/debug_20170905_0_1_f53962e944a87e6ca9bb622a2a12dffc22a9bb5a.patch"
+          ],
+          "version": ">=2.5.1 <2.6.9"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:debug:20170905:0",
+          "modificationTime": "2018-09-04T11:57:08.704803Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/debug/20170905/debug_20170905_0_0_c38a0166c266a679c8de012d4eaccec3f944e685.patch"
+          ],
+          "version": ">= 3.0.0 <=3.0.1"
+        }
+      ],
+      "publicationTime": "2017-09-26T03:55:05Z",
+      "references": [
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/visionmedia/debug/pull/504"
+        },
+        {
+          "title": "GitHub Issue",
+          "url": "https://github.com/visionmedia/debug/issues/501"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<2.6.9 || >=3.0.0 <3.1.0"
+        ]
+      },
+      "severity": "low",
+      "title": "Regular Expression Denial of Service (ReDoS)",
+      "from": [
+        "atom@atom/atom",
+        "text-buffer@13.14.9",
+        "fs-admin@0.1.7",
+        "mocha@3.5.3",
+        "debug@2.6.8"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        false,
+        "mocha@4.0.0",
+        "debug@3.1.0"
+      ],
+      "version": "2.6.8",
+      "name": "debug",
+      "isUpgradable": false,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "alternativeIds": [
+        "SNYK-JS-DEBUG-10762"
+      ],
+      "creationTime": "2017-09-13T07:55:05.106000Z",
+      "credit": [
+        "Cristian-Alexandru Staicu"
+      ],
+      "cvssScore": 3.7,
+      "description": "## Overview\r\n[`debug`](https://www.npmjs.com/package/debug) is a JavaScript debugging utility modelled after Node.js core's debugging technique..\r\n\r\n`debug` uses [printf-style](https://wikipedia.org/wiki/Printf_format_string) formatting. Affected versions of this package are vulnerable to Regular expression Denial of Service (ReDoS) attacks via the the `%o` formatter (Pretty-print an Object all on a single line). It used a regular expression (`/\\s*\\n\\s*/g`) in order to strip whitespaces and replace newlines with spaces, in order to join the data into a single line. This can cause a very low impact of about 2 seconds matching time for data 50k characters long.\r\n\r\n## Details\r\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its original and legitimate users. There are many types of DoS attacks, ranging from trying to clog the network pipes to the system by generating a large volume of traffic from many machines (a Distributed Denial of Service - DDoS - attack) to sending crafted requests that cause a system to crash or take a disproportional amount of time to process.\r\n\r\nThe Regular expression Denial of Service (ReDoS) is a type of Denial of Service attack. Regular expressions are incredibly powerful, but they aren't very intuitive and can ultimately end up making it easy for attackers to take your site down.\r\n\r\nLet’s take the following regular expression as an example:\r\n```js\r\nregex = /A(B|C+)+D/\r\n```\r\n\r\nThis regular expression accomplishes the following:\r\n- `A` The string must start with the letter 'A'\r\n- `(B|C+)+` The string must then follow the letter A with either the letter 'B' or some number of occurrences of the letter 'C' (the `+` matches one or more times). The `+` at the end of this section states that we can look for one or more matches of this section.\r\n- `D` Finally, we ensure this section of the string ends with a 'D'\r\n\r\nThe expression would match inputs such as `ABBD`, `ABCCCCD`, `ABCBCCCD` and `ACCCCCD`\r\n\r\nIt most cases, it doesn't take very long for a regex engine to find a match:\r\n\r\n```bash\r\n$ time node -e '/A(B|C+)+D/.test(\"ACCCCCCCCCCCCCCCCCCCCCCCCCCCCD\")'\r\n0.04s user 0.01s system 95% cpu 0.052 total\r\n\r\n$ time node -e '/A(B|C+)+D/.test(\"ACCCCCCCCCCCCCCCCCCCCCCCCCCCCX\")'\r\n1.79s user 0.02s system 99% cpu 1.812 total\r\n```\r\n\r\nThe entire process of testing it against a 30 characters long string takes around ~52ms. But when given an invalid string, it takes nearly two seconds to complete the test, over ten times as long as it took to test a valid string. The dramatic difference is due to the way regular expressions get evaluated.\r\n\r\nMost Regex engines will work very similarly (with minor differences). The engine will match the first possible way to accept the current character and proceed to the next one. If it then fails to match the next one, it will backtrack and see if there was another way to digest the previous character. If it goes too far down the rabbit hole only to find out the string doesn’t match in the end, and if many characters have multiple valid regex paths, the number of backtracking steps can become very large, resulting in what is known as _catastrophic backtracking_.\r\n\r\nLet's look at how our expression runs into this problem, using a shorter string: \"ACCCX\". While it seems fairly straightforward, there are still four different ways that the engine could match those three C's:\r\n1. CCC\r\n2. CC+C\r\n3. C+CC\r\n4. C+C+C.\r\n\r\nThe engine has to try each of those combinations to see if any of them potentially match against the expression. When you combine that with the other steps the engine must take, we can use [RegEx 101 debugger](https://regex101.com/debugger) to see the engine has to take a total of 38 steps before it can determine the string doesn't match.\r\n\r\nFrom there, the number of steps the engine must use to validate a string just continues to grow.\r\n\r\n| String | Number of C's | Number of steps |\r\n| -------|-------------:| -----:|\r\n| ACCCX | 3 | 38\r\n| ACCCCX | 4 | 71\r\n| ACCCCCX | 5 | 136\r\n| ACCCCCCCCCCCCCCX | 14 | 65,553\r\n\r\n\r\nBy the time the string includes 14 C's, the engine has to take over 65,000 steps just to see if the string is valid. These extreme situations can cause them to work very slowly (exponentially related to input size, as shown above), allowing an attacker to exploit this and can cause the service to excessively consume CPU, resulting in a Denial of Service.\r\n\r\n\r\n## Remediation\r\nUpgrade `debug` to version 2.6.9, 3.1.0 or higher.\r\n\r\n## References\r\n- [GitHub Issue](https://github.com/visionmedia/debug/issues/501)\r\n- [GitHub PR](https://github.com/visionmedia/debug/pull/504)",
+      "disclosureTime": "2017-09-05T21:00:00Z",
+      "id": "npm:debug:20170905",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-DEBUG-10762"
+        ],
+        "CVE": [
+          "CVE-2017-16137"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          534
+        ]
+      },
+      "language": "js",
+      "method": {
+        "src/node.js": [
+          {
+            "name": [
+              "exports.formatters.o"
+            ],
+            "semver": [
+              "<2.6.9",
+              ">=3.0.0 <3.1.0"
+            ]
+          }
+        ]
+      },
+      "modificationTime": "2018-09-03T13:22:47.143145Z",
+      "moduleName": "debug",
+      "packageManager": "npm",
+      "packageName": "debug",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:debug:20170905:3",
+          "modificationTime": "2018-09-04T11:57:08.708662Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/debug/20170905/debug_20170905_0_3_f53962e944a87e6ca9bb622a2a12dffc22a9bb5a.patch"
+          ],
+          "version": ">=2.0.0 <2.4.0"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:debug:20170905:2",
+          "modificationTime": "2018-09-04T11:57:08.707464Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/debug/20170905/debug_20170905_0_2_f53962e944a87e6ca9bb622a2a12dffc22a9bb5a.patch"
+          ],
+          "version": ">=2.4.0 <2.5.0"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:debug:20170905:1",
+          "modificationTime": "2018-09-04T11:57:08.706019Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/debug/20170905/debug_20170905_0_1_f53962e944a87e6ca9bb622a2a12dffc22a9bb5a.patch"
+          ],
+          "version": ">=2.5.1 <2.6.9"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:debug:20170905:0",
+          "modificationTime": "2018-09-04T11:57:08.704803Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/debug/20170905/debug_20170905_0_0_c38a0166c266a679c8de012d4eaccec3f944e685.patch"
+          ],
+          "version": ">= 3.0.0 <=3.0.1"
+        }
+      ],
+      "publicationTime": "2017-09-26T03:55:05Z",
+      "references": [
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/visionmedia/debug/pull/504"
+        },
+        {
+          "title": "GitHub Issue",
+          "url": "https://github.com/visionmedia/debug/issues/501"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<2.6.9 || >=3.0.0 <3.1.0"
+        ]
+      },
+      "severity": "low",
+      "title": "Regular Expression Denial of Service (ReDoS)",
+      "from": [
+        "atom@atom/atom",
+        "mocha@2.5.1",
+        "debug@2.2.0"
+      ],
+      "upgradePath": [
+        false,
+        "mocha@4.0.0",
+        "debug@3.1.0"
+      ],
+      "version": "2.2.0",
+      "name": "debug",
+      "isUpgradable": true,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:L/E:P/RL:O/RC:C",
+      "alternativeIds": [
+        "SNYK-JS-DIFF-11050"
+      ],
+      "creationTime": "2018-03-05T16:02:49.081000Z",
+      "credit": [
+        "Jamie Davis"
+      ],
+      "cvssScore": 3.7,
+      "description": "## Overview\n[`diff`](https://www.npmjs.com/package/diff) is a javascript text differencing implementation.\n\nAffected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) attacks. This can cause an impact of about 10 seconds matching time for data 48K characters long.\n\n## Disclosure Timeline\n* Feb 15th, 2018 - Initial Disclosure to package owner\n* Feb 16th, 2018 - Initial Response from package owner\n* Mar 5th, 2018 - Fix issued\n* Mar 6th, 2018 - Vulnerability published\n\n## Details\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its original and legitimate users. There are many types of DoS attacks, ranging from trying to clog the network pipes to the system by generating a large volume of traffic from many machines (a Distributed Denial of Service - DDoS - attack) to sending crafted requests that cause a system to crash or take a disproportional amount of time to process.\n\nThe Regular expression Denial of Service (ReDoS) is a type of Denial of Service attack. Regular expressions are incredibly powerful, but they aren't very intuitive and can ultimately end up making it easy for attackers to take your site down.\n\nLet’s take the following regular expression as an example:\n```js\nregex = /A(B|C+)+D/\n```\n\nThis regular expression accomplishes the following:\n- `A` The string must start with the letter 'A'\n- `(B|C+)+` The string must then follow the letter A with either the letter 'B' or some number of occurrences of the letter 'C' (the `+` matches one or more times). The `+` at the end of this section states that we can look for one or more matches of this section.\n- `D` Finally, we ensure this section of the string ends with a 'D'\n\nThe expression would match inputs such as `ABBD`, `ABCCCCD`, `ABCBCCCD` and `ACCCCCD`\n\nIt most cases, it doesn't take very long for a regex engine to find a match:\n\n```bash\n$ time node -e '/A(B|C+)+D/.test(\"ACCCCCCCCCCCCCCCCCCCCCCCCCCCCD\")'\n0.04s user 0.01s system 95% cpu 0.052 total\n\n$ time node -e '/A(B|C+)+D/.test(\"ACCCCCCCCCCCCCCCCCCCCCCCCCCCCX\")'\n1.79s user 0.02s system 99% cpu 1.812 total\n```\n\nThe entire process of testing it against a 30 characters long string takes around ~52ms. But when given an invalid string, it takes nearly two seconds to complete the test, over ten times as long as it took to test a valid string. The dramatic difference is due to the way regular expressions get evaluated.\n\nMost Regex engines will work very similarly (with minor differences). The engine will match the first possible way to accept the current character and proceed to the next one. If it then fails to match the next one, it will backtrack and see if there was another way to digest the previous character. If it goes too far down the rabbit hole only to find out the string doesn’t match in the end, and if many characters have multiple valid regex paths, the number of backtracking steps can become very large, resulting in what is known as _catastrophic backtracking_.\n\nLet's look at how our expression runs into this problem, using a shorter string: \"ACCCX\". While it seems fairly straightforward, there are still four different ways that the engine could match those three C's:\n1. CCC\n2. CC+C\n3. C+CC\n4. C+C+C.\n\nThe engine has to try each of those combinations to see if any of them potentially match against the expression. When you combine that with the other steps the engine must take, we can use [RegEx 101 debugger](https://regex101.com/debugger) to see the engine has to take a total of 38 steps before it can determine the string doesn't match.\n\nFrom there, the number of steps the engine must use to validate a string just continues to grow.\n\n| String | Number of C's | Number of steps |\n| -------|-------------:| -----:|\n| ACCCX | 3 | 38\n| ACCCCX | 4 | 71\n| ACCCCCX | 5 | 136\n| ACCCCCCCCCCCCCCX | 14 | 65,553\n\n\nBy the time the string includes 14 C's, the engine has to take over 65,000 steps just to see if the string is valid. These extreme situations can cause them to work very slowly (exponentially related to input size, as shown above), allowing an attacker to exploit this and can cause the service to excessively consume CPU, resulting in a Denial of Service.\n\n\n## Remediation\nUpgrade `diff` to version 3.5.0 or higher.\n\n## References\n- [GitHub Commit](https://github.com/kpdecker/jsdiff/commit/2aec4298639bf30fb88a00b356bf404d3551b8c0)",
+      "disclosureTime": "2018-03-05T16:02:49.081000Z",
+      "id": "npm:diff:20180305",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-DIFF-11050"
+        ],
+        "CVE": [],
+        "CWE": [
+          "CWE-400",
+          "CWE-185"
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:48.214766Z",
+      "moduleName": "diff",
+      "packageManager": "npm",
+      "packageName": "diff",
+      "patches": [],
+      "publicationTime": "2018-03-06T13:02:49.081000Z",
+      "references": [
+        {
+          "title": "GitHub Commit",
+          "url": "https://github.com/kpdecker/jsdiff/commit/2aec4298639bf30fb88a00b356bf404d3551b8c0"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          ">=3.0.0 <3.5.0"
+        ]
+      },
+      "severity": "low",
+      "title": "Regular Expression Denial of Service (ReDoS)",
+      "from": [
+        "atom@atom/atom",
+        "fs-admin@0.1.7",
+        "mocha@3.5.3",
+        "diff@3.2.0"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        "mocha@5.0.3",
+        "diff@3.5.0"
+      ],
+      "version": "3.2.0",
+      "name": "diff",
+      "isUpgradable": false,
+      "isPatchable": false
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:L/E:P/RL:O/RC:C",
+      "alternativeIds": [
+        "SNYK-JS-DIFF-11050"
+      ],
+      "creationTime": "2018-03-05T16:02:49.081000Z",
+      "credit": [
+        "Jamie Davis"
+      ],
+      "cvssScore": 3.7,
+      "description": "## Overview\n[`diff`](https://www.npmjs.com/package/diff) is a javascript text differencing implementation.\n\nAffected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) attacks. This can cause an impact of about 10 seconds matching time for data 48K characters long.\n\n## Disclosure Timeline\n* Feb 15th, 2018 - Initial Disclosure to package owner\n* Feb 16th, 2018 - Initial Response from package owner\n* Mar 5th, 2018 - Fix issued\n* Mar 6th, 2018 - Vulnerability published\n\n## Details\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its original and legitimate users. There are many types of DoS attacks, ranging from trying to clog the network pipes to the system by generating a large volume of traffic from many machines (a Distributed Denial of Service - DDoS - attack) to sending crafted requests that cause a system to crash or take a disproportional amount of time to process.\n\nThe Regular expression Denial of Service (ReDoS) is a type of Denial of Service attack. Regular expressions are incredibly powerful, but they aren't very intuitive and can ultimately end up making it easy for attackers to take your site down.\n\nLet’s take the following regular expression as an example:\n```js\nregex = /A(B|C+)+D/\n```\n\nThis regular expression accomplishes the following:\n- `A` The string must start with the letter 'A'\n- `(B|C+)+` The string must then follow the letter A with either the letter 'B' or some number of occurrences of the letter 'C' (the `+` matches one or more times). The `+` at the end of this section states that we can look for one or more matches of this section.\n- `D` Finally, we ensure this section of the string ends with a 'D'\n\nThe expression would match inputs such as `ABBD`, `ABCCCCD`, `ABCBCCCD` and `ACCCCCD`\n\nIt most cases, it doesn't take very long for a regex engine to find a match:\n\n```bash\n$ time node -e '/A(B|C+)+D/.test(\"ACCCCCCCCCCCCCCCCCCCCCCCCCCCCD\")'\n0.04s user 0.01s system 95% cpu 0.052 total\n\n$ time node -e '/A(B|C+)+D/.test(\"ACCCCCCCCCCCCCCCCCCCCCCCCCCCCX\")'\n1.79s user 0.02s system 99% cpu 1.812 total\n```\n\nThe entire process of testing it against a 30 characters long string takes around ~52ms. But when given an invalid string, it takes nearly two seconds to complete the test, over ten times as long as it took to test a valid string. The dramatic difference is due to the way regular expressions get evaluated.\n\nMost Regex engines will work very similarly (with minor differences). The engine will match the first possible way to accept the current character and proceed to the next one. If it then fails to match the next one, it will backtrack and see if there was another way to digest the previous character. If it goes too far down the rabbit hole only to find out the string doesn’t match in the end, and if many characters have multiple valid regex paths, the number of backtracking steps can become very large, resulting in what is known as _catastrophic backtracking_.\n\nLet's look at how our expression runs into this problem, using a shorter string: \"ACCCX\". While it seems fairly straightforward, there are still four different ways that the engine could match those three C's:\n1. CCC\n2. CC+C\n3. C+CC\n4. C+C+C.\n\nThe engine has to try each of those combinations to see if any of them potentially match against the expression. When you combine that with the other steps the engine must take, we can use [RegEx 101 debugger](https://regex101.com/debugger) to see the engine has to take a total of 38 steps before it can determine the string doesn't match.\n\nFrom there, the number of steps the engine must use to validate a string just continues to grow.\n\n| String | Number of C's | Number of steps |\n| -------|-------------:| -----:|\n| ACCCX | 3 | 38\n| ACCCCX | 4 | 71\n| ACCCCCX | 5 | 136\n| ACCCCCCCCCCCCCCX | 14 | 65,553\n\n\nBy the time the string includes 14 C's, the engine has to take over 65,000 steps just to see if the string is valid. These extreme situations can cause them to work very slowly (exponentially related to input size, as shown above), allowing an attacker to exploit this and can cause the service to excessively consume CPU, resulting in a Denial of Service.\n\n\n## Remediation\nUpgrade `diff` to version 3.5.0 or higher.\n\n## References\n- [GitHub Commit](https://github.com/kpdecker/jsdiff/commit/2aec4298639bf30fb88a00b356bf404d3551b8c0)",
+      "disclosureTime": "2018-03-05T16:02:49.081000Z",
+      "id": "npm:diff:20180305",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-DIFF-11050"
+        ],
+        "CVE": [],
+        "CWE": [
+          "CWE-400",
+          "CWE-185"
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:48.214766Z",
+      "moduleName": "diff",
+      "packageManager": "npm",
+      "packageName": "diff",
+      "patches": [],
+      "publicationTime": "2018-03-06T13:02:49.081000Z",
+      "references": [
+        {
+          "title": "GitHub Commit",
+          "url": "https://github.com/kpdecker/jsdiff/commit/2aec4298639bf30fb88a00b356bf404d3551b8c0"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          ">=3.0.0 <3.5.0"
+        ]
+      },
+      "severity": "low",
+      "title": "Regular Expression Denial of Service (ReDoS)",
+      "from": [
+        "atom@atom/atom",
+        "text-buffer@13.14.9",
+        "fs-admin@0.1.7",
+        "mocha@3.5.3",
+        "diff@3.2.0"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        false,
+        "mocha@5.0.3",
+        "diff@3.5.0"
+      ],
+      "version": "3.2.0",
+      "name": "diff",
+      "isUpgradable": false,
+      "isPatchable": false
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "alternativeIds": [
+        "SNYK-JS-GROWL-10500"
+      ],
+      "creationTime": "2017-04-30T10:25:31.315000Z",
+      "credit": [
+        "Cristian-Alexandru Staicu",
+        "Michael Pradel",
+        "Ben Livshits"
+      ],
+      "cvssScore": 6.5,
+      "description": "## Overview\n[`growl`](https://www.npmjs.com/package/growl) is a package adding Growl support for Nodejs.\n\nAffected versions of the package are vulnerable to Arbitrary Code Injection due to unsafe use of the `eval()` function. Node.js provides the `eval()` function by default, and is used to translate strings into Javascript code. An attacker can craft a malicious payload to inject arbitrary commands.\n\n## Remediation\nUpgrade `growl` to version 1.10.0 or higher.\n\n## References\n- [GitHub Issue](https://github.com/tj/node-growl/issues/60)\n- [GitHub Commits](https://github.com/tj/node-growl/compare/v1.9.2...v1.10.0)\n- [GitHub Release Notes](https://github.com/tj/node-growl/blob/master/History.md#193--2016-09-05)\n- [Research Paper - Understanding and Automatically Preventing Injection Attacks on Node.js](http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/02/ndss2018_07A-2_Staicu_paper.pdf)\n",
+      "disclosureTime": "2016-07-21T21:00:00Z",
+      "id": "npm:growl:20160721",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-GROWL-10500"
+        ],
+        "CVE": [
+          "CVE-2017-16042"
+        ],
+        "CWE": [
+          "CWE-94"
+        ],
+        "NSP": [
+          146
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:46.098476Z",
+      "moduleName": "growl",
+      "packageManager": "npm",
+      "packageName": "growl",
+      "patches": [],
+      "publicationTime": "2017-05-01T08:50:31.315000Z",
+      "references": [
+        {
+          "title": "Research Paper - Understanding and Automatically Preventing Injection Attacks on Node.js",
+          "url": "http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/02/ndss2018_07A-2_Staicu_paper.pdf"
+        },
+        {
+          "title": "GitHub Release Notes",
+          "url": "https://github.com/tj/node-growl/blob/master/History.md#193--2016-09-05"
+        },
+        {
+          "title": "GitHub Commits",
+          "url": "https://github.com/tj/node-growl/compare/v1.9.2...v1.10.0"
+        },
+        {
+          "title": "GitHub Issue",
+          "url": "https://github.com/tj/node-growl/issues/60"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.10.0"
+        ]
+      },
+      "severity": "high",
+      "title": "Arbitrary Code Injection",
+      "from": [
+        "atom@atom/atom",
+        "mocha@2.5.1",
+        "growl@1.9.2"
+      ],
+      "upgradePath": [
+        false,
+        "mocha@4.0.0",
+        "growl@1.10.2"
+      ],
+      "version": "1.9.2",
+      "name": "growl",
+      "isUpgradable": true,
+      "isPatchable": false
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "alternativeIds": [
+        "SNYK-JS-GROWL-10500"
+      ],
+      "creationTime": "2017-04-30T10:25:31.315000Z",
+      "credit": [
+        "Cristian-Alexandru Staicu",
+        "Michael Pradel",
+        "Ben Livshits"
+      ],
+      "cvssScore": 6.5,
+      "description": "## Overview\n[`growl`](https://www.npmjs.com/package/growl) is a package adding Growl support for Nodejs.\n\nAffected versions of the package are vulnerable to Arbitrary Code Injection due to unsafe use of the `eval()` function. Node.js provides the `eval()` function by default, and is used to translate strings into Javascript code. An attacker can craft a malicious payload to inject arbitrary commands.\n\n## Remediation\nUpgrade `growl` to version 1.10.0 or higher.\n\n## References\n- [GitHub Issue](https://github.com/tj/node-growl/issues/60)\n- [GitHub Commits](https://github.com/tj/node-growl/compare/v1.9.2...v1.10.0)\n- [GitHub Release Notes](https://github.com/tj/node-growl/blob/master/History.md#193--2016-09-05)\n- [Research Paper - Understanding and Automatically Preventing Injection Attacks on Node.js](http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/02/ndss2018_07A-2_Staicu_paper.pdf)\n",
+      "disclosureTime": "2016-07-21T21:00:00Z",
+      "id": "npm:growl:20160721",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-GROWL-10500"
+        ],
+        "CVE": [
+          "CVE-2017-16042"
+        ],
+        "CWE": [
+          "CWE-94"
+        ],
+        "NSP": [
+          146
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:46.098476Z",
+      "moduleName": "growl",
+      "packageManager": "npm",
+      "packageName": "growl",
+      "patches": [],
+      "publicationTime": "2017-05-01T08:50:31.315000Z",
+      "references": [
+        {
+          "title": "Research Paper - Understanding and Automatically Preventing Injection Attacks on Node.js",
+          "url": "http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/02/ndss2018_07A-2_Staicu_paper.pdf"
+        },
+        {
+          "title": "GitHub Release Notes",
+          "url": "https://github.com/tj/node-growl/blob/master/History.md#193--2016-09-05"
+        },
+        {
+          "title": "GitHub Commits",
+          "url": "https://github.com/tj/node-growl/compare/v1.9.2...v1.10.0"
+        },
+        {
+          "title": "GitHub Issue",
+          "url": "https://github.com/tj/node-growl/issues/60"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.10.0"
+        ]
+      },
+      "severity": "high",
+      "title": "Arbitrary Code Injection",
+      "from": [
+        "atom@atom/atom",
+        "fs-admin@0.1.7",
+        "mocha@3.5.3",
+        "growl@1.9.2"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        "mocha@4.0.0",
+        "growl@1.10.2"
+      ],
+      "version": "1.9.2",
+      "name": "growl",
+      "isUpgradable": false,
+      "isPatchable": false
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "alternativeIds": [
+        "SNYK-JS-GROWL-10500"
+      ],
+      "creationTime": "2017-04-30T10:25:31.315000Z",
+      "credit": [
+        "Cristian-Alexandru Staicu",
+        "Michael Pradel",
+        "Ben Livshits"
+      ],
+      "cvssScore": 6.5,
+      "description": "## Overview\n[`growl`](https://www.npmjs.com/package/growl) is a package adding Growl support for Nodejs.\n\nAffected versions of the package are vulnerable to Arbitrary Code Injection due to unsafe use of the `eval()` function. Node.js provides the `eval()` function by default, and is used to translate strings into Javascript code. An attacker can craft a malicious payload to inject arbitrary commands.\n\n## Remediation\nUpgrade `growl` to version 1.10.0 or higher.\n\n## References\n- [GitHub Issue](https://github.com/tj/node-growl/issues/60)\n- [GitHub Commits](https://github.com/tj/node-growl/compare/v1.9.2...v1.10.0)\n- [GitHub Release Notes](https://github.com/tj/node-growl/blob/master/History.md#193--2016-09-05)\n- [Research Paper - Understanding and Automatically Preventing Injection Attacks on Node.js](http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/02/ndss2018_07A-2_Staicu_paper.pdf)\n",
+      "disclosureTime": "2016-07-21T21:00:00Z",
+      "id": "npm:growl:20160721",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-GROWL-10500"
+        ],
+        "CVE": [
+          "CVE-2017-16042"
+        ],
+        "CWE": [
+          "CWE-94"
+        ],
+        "NSP": [
+          146
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:46.098476Z",
+      "moduleName": "growl",
+      "packageManager": "npm",
+      "packageName": "growl",
+      "patches": [],
+      "publicationTime": "2017-05-01T08:50:31.315000Z",
+      "references": [
+        {
+          "title": "Research Paper - Understanding and Automatically Preventing Injection Attacks on Node.js",
+          "url": "http://wp.internetsociety.org/ndss/wp-content/uploads/sites/25/2018/02/ndss2018_07A-2_Staicu_paper.pdf"
+        },
+        {
+          "title": "GitHub Release Notes",
+          "url": "https://github.com/tj/node-growl/blob/master/History.md#193--2016-09-05"
+        },
+        {
+          "title": "GitHub Commits",
+          "url": "https://github.com/tj/node-growl/compare/v1.9.2...v1.10.0"
+        },
+        {
+          "title": "GitHub Issue",
+          "url": "https://github.com/tj/node-growl/issues/60"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<1.10.0"
+        ]
+      },
+      "severity": "high",
+      "title": "Arbitrary Code Injection",
+      "from": [
+        "atom@atom/atom",
+        "text-buffer@13.14.9",
+        "fs-admin@0.1.7",
+        "mocha@3.5.3",
+        "growl@1.9.2"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        false,
+        "mocha@4.0.0",
+        "growl@1.10.2"
+      ],
+      "version": "1.9.2",
+      "name": "growl",
+      "isUpgradable": false,
+      "isPatchable": false
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L/E:F/RL:O/RC:C",
+      "alternativeIds": [
+        "SNYK-JS-HOEK-12061"
+      ],
+      "creationTime": "2018-02-12T22:28:27.612000Z",
+      "credit": [
+        "Olivier Arteau (HoLyVieR)"
+      ],
+      "cvssScore": 1.8,
+      "description": "## Overview\n[hoek](https://github.com/hapijs/hoek) is a Utility methods for the hapi ecosystem.\n\nAffected versions of this package are vulnerable to Prototype Pollution. \nThe utilities function allow modification of the `Object` prototype. If an attacker can control part of the structure passed to this function, they could add or modify an existing property.  \n\n## PoC by Olivier Arteau (HoLyVieR)\n```js\nvar Hoek = require('hoek');\nvar malicious_payload = '{\"__proto__\":{\"oops\":\"It works !\"}}';\n\nvar a = {};\nconsole.log(\"Before : \" + a.oops);\nHoek.merge({}, JSON.parse(malicious_payload));\nconsole.log(\"After : \" + a.oops);\n\n```\n\n## Remediation\nUpgrade `hoek` to versions 4.2.1, 5.0.3 or higher.\n\n## References\n- [HackerOne Report](https://hackerone.com/reports/310439)\n- [GitHub PR](https://github.com/hapijs/hoek/pull/227)\n- [GitHub Issue - 4.2.1 Backport](https://github.com/hapijs/hoek/issues/230)\n- [GitHub Commit 5.0.3](https://github.com/hapijs/hoek/commit/32ed5c9413321fbc37da5ca81a7cbab693786dee)\n- [GitHub Commit 4.2.x](https://github.com/hapijs/hoek/commit/5aed1a8c4a3d55722d1c799f2368857bf418d6df)",
+      "disclosureTime": "2018-02-12T22:28:27.612000Z",
+      "id": "npm:hoek:20180212",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-HOEK-12061"
+        ],
+        "CVE": [
+          "CVE-2018-3728"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          566
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:48.587606Z",
+      "moduleName": "hoek",
+      "packageManager": "npm",
+      "packageName": "hoek",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:hoek:20180212:1",
+          "modificationTime": "2018-09-04T11:57:08.716800Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/hoek/20180212/20180212_0_1_hoek_32ed5c9413321fbc37da5ca81a7cbab693786dee.patch"
+          ],
+          "version": ">=2.0.0 <3.0.0"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:hoek:20180212:0",
+          "modificationTime": "2018-09-04T11:57:08.715429Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/hoek/20180212/20180212_0_0_hoek_5aed1a8c4a3d55722d1c799f2368857bf418d6df.patch"
+          ],
+          "version": "<4.2.1 >=4.1.0 || <3.0.4 >=3.0.0"
+        }
+      ],
+      "publicationTime": "2018-02-14T13:22:50.418000Z",
+      "references": [
+        {
+          "title": "GitHub Commit 4.2.x",
+          "url": "https://github.com/hapijs/hoek/commit/5aed1a8c4a3d55722d1c799f2368857bf418d6df"
+        },
+        {
+          "title": "GitHub Commit 5.0.3",
+          "url": "https://github.com/hapijs/hoek/commit/32ed5c9413321fbc37da5ca81a7cbab693786dee"
+        },
+        {
+          "title": "GitHub Issue - 4.2.1 Backport",
+          "url": "https://github.com/hapijs/hoek/issues/230"
+        },
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/hapijs/hoek/pull/227"
+        },
+        {
+          "title": "HackerOne Report",
+          "url": "https://hackerone.com/reports/310439"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<4.2.1 || >=5.0.0 <5.0.3"
+        ]
+      },
+      "severity": "low",
+      "title": "Prototype Pollution",
+      "from": [
+        "atom@atom/atom",
+        "less-cache@1.1.0",
+        "less@2.7.3",
+        "request@2.81.0",
+        "hawk@3.1.3",
+        "hoek@2.16.3"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        "less@3.0.2",
+        "request@2.83.0",
+        "hawk@6.0.2",
+        "hoek@4.2.1"
+      ],
+      "version": "2.16.3",
+      "name": "hoek",
+      "isUpgradable": false,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L/E:F/RL:O/RC:C",
+      "alternativeIds": [
+        "SNYK-JS-HOEK-12061"
+      ],
+      "creationTime": "2018-02-12T22:28:27.612000Z",
+      "credit": [
+        "Olivier Arteau (HoLyVieR)"
+      ],
+      "cvssScore": 1.8,
+      "description": "## Overview\n[hoek](https://github.com/hapijs/hoek) is a Utility methods for the hapi ecosystem.\n\nAffected versions of this package are vulnerable to Prototype Pollution. \nThe utilities function allow modification of the `Object` prototype. If an attacker can control part of the structure passed to this function, they could add or modify an existing property.  \n\n## PoC by Olivier Arteau (HoLyVieR)\n```js\nvar Hoek = require('hoek');\nvar malicious_payload = '{\"__proto__\":{\"oops\":\"It works !\"}}';\n\nvar a = {};\nconsole.log(\"Before : \" + a.oops);\nHoek.merge({}, JSON.parse(malicious_payload));\nconsole.log(\"After : \" + a.oops);\n\n```\n\n## Remediation\nUpgrade `hoek` to versions 4.2.1, 5.0.3 or higher.\n\n## References\n- [HackerOne Report](https://hackerone.com/reports/310439)\n- [GitHub PR](https://github.com/hapijs/hoek/pull/227)\n- [GitHub Issue - 4.2.1 Backport](https://github.com/hapijs/hoek/issues/230)\n- [GitHub Commit 5.0.3](https://github.com/hapijs/hoek/commit/32ed5c9413321fbc37da5ca81a7cbab693786dee)\n- [GitHub Commit 4.2.x](https://github.com/hapijs/hoek/commit/5aed1a8c4a3d55722d1c799f2368857bf418d6df)",
+      "disclosureTime": "2018-02-12T22:28:27.612000Z",
+      "id": "npm:hoek:20180212",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-HOEK-12061"
+        ],
+        "CVE": [
+          "CVE-2018-3728"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          566
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:48.587606Z",
+      "moduleName": "hoek",
+      "packageManager": "npm",
+      "packageName": "hoek",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:hoek:20180212:1",
+          "modificationTime": "2018-09-04T11:57:08.716800Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/hoek/20180212/20180212_0_1_hoek_32ed5c9413321fbc37da5ca81a7cbab693786dee.patch"
+          ],
+          "version": ">=2.0.0 <3.0.0"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:hoek:20180212:0",
+          "modificationTime": "2018-09-04T11:57:08.715429Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/hoek/20180212/20180212_0_0_hoek_5aed1a8c4a3d55722d1c799f2368857bf418d6df.patch"
+          ],
+          "version": "<4.2.1 >=4.1.0 || <3.0.4 >=3.0.0"
+        }
+      ],
+      "publicationTime": "2018-02-14T13:22:50.418000Z",
+      "references": [
+        {
+          "title": "GitHub Commit 4.2.x",
+          "url": "https://github.com/hapijs/hoek/commit/5aed1a8c4a3d55722d1c799f2368857bf418d6df"
+        },
+        {
+          "title": "GitHub Commit 5.0.3",
+          "url": "https://github.com/hapijs/hoek/commit/32ed5c9413321fbc37da5ca81a7cbab693786dee"
+        },
+        {
+          "title": "GitHub Issue - 4.2.1 Backport",
+          "url": "https://github.com/hapijs/hoek/issues/230"
+        },
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/hapijs/hoek/pull/227"
+        },
+        {
+          "title": "HackerOne Report",
+          "url": "https://hackerone.com/reports/310439"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<4.2.1 || >=5.0.0 <5.0.3"
+        ]
+      },
+      "severity": "low",
+      "title": "Prototype Pollution",
+      "from": [
+        "atom@atom/atom",
+        "less-cache@1.1.0",
+        "less@2.7.3",
+        "request@2.81.0",
+        "hawk@3.1.3",
+        "boom@2.10.1",
+        "hoek@2.16.3"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        "less@3.0.2",
+        "request@2.83.0",
+        "hawk@6.0.2",
+        "boom@4.0.0",
+        "hoek@4.2.1"
+      ],
+      "version": "2.16.3",
+      "name": "hoek",
+      "isUpgradable": false,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L/E:F/RL:O/RC:C",
+      "alternativeIds": [
+        "SNYK-JS-HOEK-12061"
+      ],
+      "creationTime": "2018-02-12T22:28:27.612000Z",
+      "credit": [
+        "Olivier Arteau (HoLyVieR)"
+      ],
+      "cvssScore": 1.8,
+      "description": "## Overview\n[hoek](https://github.com/hapijs/hoek) is a Utility methods for the hapi ecosystem.\n\nAffected versions of this package are vulnerable to Prototype Pollution. \nThe utilities function allow modification of the `Object` prototype. If an attacker can control part of the structure passed to this function, they could add or modify an existing property.  \n\n## PoC by Olivier Arteau (HoLyVieR)\n```js\nvar Hoek = require('hoek');\nvar malicious_payload = '{\"__proto__\":{\"oops\":\"It works !\"}}';\n\nvar a = {};\nconsole.log(\"Before : \" + a.oops);\nHoek.merge({}, JSON.parse(malicious_payload));\nconsole.log(\"After : \" + a.oops);\n\n```\n\n## Remediation\nUpgrade `hoek` to versions 4.2.1, 5.0.3 or higher.\n\n## References\n- [HackerOne Report](https://hackerone.com/reports/310439)\n- [GitHub PR](https://github.com/hapijs/hoek/pull/227)\n- [GitHub Issue - 4.2.1 Backport](https://github.com/hapijs/hoek/issues/230)\n- [GitHub Commit 5.0.3](https://github.com/hapijs/hoek/commit/32ed5c9413321fbc37da5ca81a7cbab693786dee)\n- [GitHub Commit 4.2.x](https://github.com/hapijs/hoek/commit/5aed1a8c4a3d55722d1c799f2368857bf418d6df)",
+      "disclosureTime": "2018-02-12T22:28:27.612000Z",
+      "id": "npm:hoek:20180212",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-HOEK-12061"
+        ],
+        "CVE": [
+          "CVE-2018-3728"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          566
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:48.587606Z",
+      "moduleName": "hoek",
+      "packageManager": "npm",
+      "packageName": "hoek",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:hoek:20180212:1",
+          "modificationTime": "2018-09-04T11:57:08.716800Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/hoek/20180212/20180212_0_1_hoek_32ed5c9413321fbc37da5ca81a7cbab693786dee.patch"
+          ],
+          "version": ">=2.0.0 <3.0.0"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:hoek:20180212:0",
+          "modificationTime": "2018-09-04T11:57:08.715429Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/hoek/20180212/20180212_0_0_hoek_5aed1a8c4a3d55722d1c799f2368857bf418d6df.patch"
+          ],
+          "version": "<4.2.1 >=4.1.0 || <3.0.4 >=3.0.0"
+        }
+      ],
+      "publicationTime": "2018-02-14T13:22:50.418000Z",
+      "references": [
+        {
+          "title": "GitHub Commit 4.2.x",
+          "url": "https://github.com/hapijs/hoek/commit/5aed1a8c4a3d55722d1c799f2368857bf418d6df"
+        },
+        {
+          "title": "GitHub Commit 5.0.3",
+          "url": "https://github.com/hapijs/hoek/commit/32ed5c9413321fbc37da5ca81a7cbab693786dee"
+        },
+        {
+          "title": "GitHub Issue - 4.2.1 Backport",
+          "url": "https://github.com/hapijs/hoek/issues/230"
+        },
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/hapijs/hoek/pull/227"
+        },
+        {
+          "title": "HackerOne Report",
+          "url": "https://hackerone.com/reports/310439"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<4.2.1 || >=5.0.0 <5.0.3"
+        ]
+      },
+      "severity": "low",
+      "title": "Prototype Pollution",
+      "from": [
+        "atom@atom/atom",
+        "less-cache@1.1.0",
+        "less@2.7.3",
+        "request@2.81.0",
+        "hawk@3.1.3",
+        "sntp@1.0.9",
+        "hoek@2.16.3"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        "less@3.0.2",
+        "request@2.83.0",
+        "hawk@6.0.2",
+        "sntp@2.0.1",
+        "hoek@4.2.1"
+      ],
+      "version": "2.16.3",
+      "name": "hoek",
+      "isUpgradable": false,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L/E:F/RL:O/RC:C",
+      "alternativeIds": [
+        "SNYK-JS-HOEK-12061"
+      ],
+      "creationTime": "2018-02-12T22:28:27.612000Z",
+      "credit": [
+        "Olivier Arteau (HoLyVieR)"
+      ],
+      "cvssScore": 1.8,
+      "description": "## Overview\n[hoek](https://github.com/hapijs/hoek) is a Utility methods for the hapi ecosystem.\n\nAffected versions of this package are vulnerable to Prototype Pollution. \nThe utilities function allow modification of the `Object` prototype. If an attacker can control part of the structure passed to this function, they could add or modify an existing property.  \n\n## PoC by Olivier Arteau (HoLyVieR)\n```js\nvar Hoek = require('hoek');\nvar malicious_payload = '{\"__proto__\":{\"oops\":\"It works !\"}}';\n\nvar a = {};\nconsole.log(\"Before : \" + a.oops);\nHoek.merge({}, JSON.parse(malicious_payload));\nconsole.log(\"After : \" + a.oops);\n\n```\n\n## Remediation\nUpgrade `hoek` to versions 4.2.1, 5.0.3 or higher.\n\n## References\n- [HackerOne Report](https://hackerone.com/reports/310439)\n- [GitHub PR](https://github.com/hapijs/hoek/pull/227)\n- [GitHub Issue - 4.2.1 Backport](https://github.com/hapijs/hoek/issues/230)\n- [GitHub Commit 5.0.3](https://github.com/hapijs/hoek/commit/32ed5c9413321fbc37da5ca81a7cbab693786dee)\n- [GitHub Commit 4.2.x](https://github.com/hapijs/hoek/commit/5aed1a8c4a3d55722d1c799f2368857bf418d6df)",
+      "disclosureTime": "2018-02-12T22:28:27.612000Z",
+      "id": "npm:hoek:20180212",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-HOEK-12061"
+        ],
+        "CVE": [
+          "CVE-2018-3728"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          566
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:48.587606Z",
+      "moduleName": "hoek",
+      "packageManager": "npm",
+      "packageName": "hoek",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:hoek:20180212:1",
+          "modificationTime": "2018-09-04T11:57:08.716800Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/hoek/20180212/20180212_0_1_hoek_32ed5c9413321fbc37da5ca81a7cbab693786dee.patch"
+          ],
+          "version": ">=2.0.0 <3.0.0"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:hoek:20180212:0",
+          "modificationTime": "2018-09-04T11:57:08.715429Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/hoek/20180212/20180212_0_0_hoek_5aed1a8c4a3d55722d1c799f2368857bf418d6df.patch"
+          ],
+          "version": "<4.2.1 >=4.1.0 || <3.0.4 >=3.0.0"
+        }
+      ],
+      "publicationTime": "2018-02-14T13:22:50.418000Z",
+      "references": [
+        {
+          "title": "GitHub Commit 4.2.x",
+          "url": "https://github.com/hapijs/hoek/commit/5aed1a8c4a3d55722d1c799f2368857bf418d6df"
+        },
+        {
+          "title": "GitHub Commit 5.0.3",
+          "url": "https://github.com/hapijs/hoek/commit/32ed5c9413321fbc37da5ca81a7cbab693786dee"
+        },
+        {
+          "title": "GitHub Issue - 4.2.1 Backport",
+          "url": "https://github.com/hapijs/hoek/issues/230"
+        },
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/hapijs/hoek/pull/227"
+        },
+        {
+          "title": "HackerOne Report",
+          "url": "https://hackerone.com/reports/310439"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<4.2.1 || >=5.0.0 <5.0.3"
+        ]
+      },
+      "severity": "low",
+      "title": "Prototype Pollution",
+      "from": [
+        "atom@atom/atom",
+        "less-cache@1.1.0",
+        "less@2.7.3",
+        "request@2.81.0",
+        "hawk@3.1.3",
+        "cryptiles@2.0.5",
+        "boom@2.10.1",
+        "hoek@2.16.3"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        "less@3.0.2",
+        "request@2.83.0",
+        "hawk@6.0.2",
+        "cryptiles@3.0.0",
+        "boom@3.1.3",
+        "hoek@4.2.1"
+      ],
+      "version": "2.16.3",
+      "name": "hoek",
+      "isUpgradable": false,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L/E:F/RL:O/RC:C",
+      "alternativeIds": [
+        "SNYK-JS-LODASH-12060"
+      ],
+      "creationTime": "2018-02-12T22:28:27.654000Z",
+      "credit": [
+        "Olivier Arteau (HoLyVieR)"
+      ],
+      "cvssScore": 1.8,
+      "description": "## Overview\n[lodash](https://lodash.com/) is a javaScript utility library delivering modularity, performance & extras.\n\nAffected versions of this package are vulnerable to Prototype Pollution. \nThe utilities function allow modification of the `Object` prototype. If an attacker can control part of the structure passed to this function, they could add or modify an existing property.  \n\n## PoC by Olivier Arteau (HoLyVieR)\n```js\nvar _= require('lodash');\nvar malicious_payload = '{\"__proto__\":{\"oops\":\"It works !\"}}';\n\nvar a = {};\nconsole.log(\"Before : \" + a.oops);\n_.merge({}, JSON.parse(malicious_payload));\nconsole.log(\"After : \" + a.oops);\n```\n\n## Remediation\nUpgrade `lodash` to version 4.17.5 or higher.\n\n## References\n- [HackerOne Report](https://hackerone.com/reports/310443)\n- [GiTHub Commit](https://github.com/lodash/lodash/commit/d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a)\n",
+      "disclosureTime": "2018-01-30T22:28:27.654000Z",
+      "id": "npm:lodash:20180130",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-LODASH-12060"
+        ],
+        "CVE": [
+          "CVE-2018-3721"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          577
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:48.583890Z",
+      "moduleName": "lodash",
+      "packageManager": "npm",
+      "packageName": "lodash",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:lodash:20180130:0",
+          "modificationTime": "2018-09-04T11:57:08.714161Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/lodash/20180130/20180130_0_0_lodash_d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a.patch"
+          ],
+          "version": "=3.10.1"
+        }
+      ],
+      "publicationTime": "2018-02-14T13:22:50.572000Z",
+      "references": [
+        {
+          "title": "GiTHub Commit",
+          "url": "https://github.com/lodash/lodash/commit/d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a"
+        },
+        {
+          "title": "HackerOne Report",
+          "url": "https://hackerone.com/reports/310443"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<4.17.5"
+        ]
+      },
+      "severity": "low",
+      "title": "Prototype Pollution",
+      "from": [
+        "atom@atom/atom",
+        "babel-core@5.8.38",
+        "lodash@3.10.1"
+      ],
+      "upgradePath": [
+        false,
+        "babel-core@6.9.0",
+        "lodash@4.17.5"
+      ],
+      "version": "3.10.1",
+      "name": "lodash",
+      "isUpgradable": true,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:L/E:F/RL:O/RC:C",
+      "alternativeIds": [
+        "SNYK-JS-LODASH-12060"
+      ],
+      "creationTime": "2018-02-12T22:28:27.654000Z",
+      "credit": [
+        "Olivier Arteau (HoLyVieR)"
+      ],
+      "cvssScore": 1.8,
+      "description": "## Overview\n[lodash](https://lodash.com/) is a javaScript utility library delivering modularity, performance & extras.\n\nAffected versions of this package are vulnerable to Prototype Pollution. \nThe utilities function allow modification of the `Object` prototype. If an attacker can control part of the structure passed to this function, they could add or modify an existing property.  \n\n## PoC by Olivier Arteau (HoLyVieR)\n```js\nvar _= require('lodash');\nvar malicious_payload = '{\"__proto__\":{\"oops\":\"It works !\"}}';\n\nvar a = {};\nconsole.log(\"Before : \" + a.oops);\n_.merge({}, JSON.parse(malicious_payload));\nconsole.log(\"After : \" + a.oops);\n```\n\n## Remediation\nUpgrade `lodash` to version 4.17.5 or higher.\n\n## References\n- [HackerOne Report](https://hackerone.com/reports/310443)\n- [GiTHub Commit](https://github.com/lodash/lodash/commit/d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a)\n",
+      "disclosureTime": "2018-01-30T22:28:27.654000Z",
+      "id": "npm:lodash:20180130",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-LODASH-12060"
+        ],
+        "CVE": [
+          "CVE-2018-3721"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          577
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:48.583890Z",
+      "moduleName": "lodash",
+      "packageManager": "npm",
+      "packageName": "lodash",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:lodash:20180130:0",
+          "modificationTime": "2018-09-04T11:57:08.714161Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/lodash/20180130/20180130_0_0_lodash_d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a.patch"
+          ],
+          "version": "=3.10.1"
+        }
+      ],
+      "publicationTime": "2018-02-14T13:22:50.572000Z",
+      "references": [
+        {
+          "title": "GiTHub Commit",
+          "url": "https://github.com/lodash/lodash/commit/d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a"
+        },
+        {
+          "title": "HackerOne Report",
+          "url": "https://hackerone.com/reports/310443"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<4.17.5"
+        ]
+      },
+      "severity": "low",
+      "title": "Prototype Pollution",
+      "from": [
+        "atom@atom/atom",
+        "babel-core@5.8.38",
+        "babel-plugin-proto-to-assign@1.0.4",
+        "lodash@3.10.1"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        false,
+        "lodash@4.17.5"
+      ],
+      "version": "3.10.1",
+      "name": "lodash",
+      "isUpgradable": false,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "alternativeIds": [
+        "SNYK-JS-MINIMATCH-10105"
+      ],
+      "creationTime": "2016-06-20T16:00:06.484000Z",
+      "credit": [
+        "Nick Starke"
+      ],
+      "cvssScore": 7.5,
+      "description": "## Overview\n[`minimatch`](https://www.npmjs.com/package/minimatch) is a minimalistic matching library used for converting glob expressions into JavaScript RegExp objects.\nAffected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) attacks.\n\nThe Regular expression Denial of Service (ReDoS) is a type of Denial of Service attack.  Many Regular Expression implementations may reach edge cases that causes them to work very slowly (exponentially related to input size), allowing an attacker to exploit this and can cause the program to enter these extreme situations by using a specially crafted input and cause the service to excessively consume CPU, resulting in a Denial of Service.\n\nAn attacker can provide a long value to the `minimatch` function, which nearly matches the pattern being matched. This will cause the regular expression matching to take a long time, all the while occupying the event loop and preventing it from processing other requests and making the server unavailable (a Denial of Service attack).\n\nYou can read more about `Regular Expression Denial of Service (ReDoS)` on our [blog](https://snyk.io/blog/redos-and-catastrophic-backtracking/).\n\n## Remediation\nUpgrade `minimatch` to version `3.0.2` or greater.\n\n## References\n- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n- https://github.com/isaacs/minimatch/commit/6944abf9e0694bd22fd9dad293faa40c2bc8a955\n",
+      "disclosureTime": "2016-06-20T15:52:52Z",
+      "id": "npm:minimatch:20160620",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-MINIMATCH-10105"
+        ],
+        "CVE": [
+          "CVE-2016-10540"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          118
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:44.478688Z",
+      "moduleName": "minimatch",
+      "packageManager": "npm",
+      "packageName": "minimatch",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:minimatch:20160620:1",
+          "modificationTime": "2018-09-04T11:57:08.660271Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/minimatch/20160620/minimatch_20160620_0_1_6944abf9e0694bd22fd9dad293faa40c2bc8a955.patch"
+          ],
+          "version": "<=2.0.5 >0.0.5"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:minimatch:20160620:0",
+          "modificationTime": "2018-09-04T11:57:08.659029Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/minimatch/20160620/minimatch_20160620_0_0_6944abf9e0694bd22fd9dad293faa40c2bc8a955.patch"
+          ],
+          "version": "<=3.0.1 >2.0.5"
+        }
+      ],
+      "publicationTime": "2016-06-20T15:52:52Z",
+      "references": [
+        {
+          "title": "GITHUB.COM",
+          "url": "https://github.com/isaacs/minimatch/commit/6944abf9e0694bd22fd9dad293faa40c2bc8a955"
+        },
+        {
+          "title": "WWW.OWASP.ORG",
+          "url": "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<=3.0.1"
+        ]
+      },
+      "severity": "high",
+      "title": "Regular Expression Denial of Service (DoS)",
+      "from": [
+        "atom@atom/atom",
+        "babel-core@5.8.38",
+        "minimatch@2.0.10"
+      ],
+      "upgradePath": [
+        false,
+        "babel-core@6.10.4",
+        "minimatch@3.0.2"
+      ],
+      "version": "2.0.10",
+      "name": "minimatch",
+      "isUpgradable": true,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "alternativeIds": [
+        "SNYK-JS-MINIMATCH-10105"
+      ],
+      "creationTime": "2016-06-20T16:00:06.484000Z",
+      "credit": [
+        "Nick Starke"
+      ],
+      "cvssScore": 7.5,
+      "description": "## Overview\n[`minimatch`](https://www.npmjs.com/package/minimatch) is a minimalistic matching library used for converting glob expressions into JavaScript RegExp objects.\nAffected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) attacks.\n\nThe Regular expression Denial of Service (ReDoS) is a type of Denial of Service attack.  Many Regular Expression implementations may reach edge cases that causes them to work very slowly (exponentially related to input size), allowing an attacker to exploit this and can cause the program to enter these extreme situations by using a specially crafted input and cause the service to excessively consume CPU, resulting in a Denial of Service.\n\nAn attacker can provide a long value to the `minimatch` function, which nearly matches the pattern being matched. This will cause the regular expression matching to take a long time, all the while occupying the event loop and preventing it from processing other requests and making the server unavailable (a Denial of Service attack).\n\nYou can read more about `Regular Expression Denial of Service (ReDoS)` on our [blog](https://snyk.io/blog/redos-and-catastrophic-backtracking/).\n\n## Remediation\nUpgrade `minimatch` to version `3.0.2` or greater.\n\n## References\n- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n- https://github.com/isaacs/minimatch/commit/6944abf9e0694bd22fd9dad293faa40c2bc8a955\n",
+      "disclosureTime": "2016-06-20T15:52:52Z",
+      "id": "npm:minimatch:20160620",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-MINIMATCH-10105"
+        ],
+        "CVE": [
+          "CVE-2016-10540"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          118
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:44.478688Z",
+      "moduleName": "minimatch",
+      "packageManager": "npm",
+      "packageName": "minimatch",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:minimatch:20160620:1",
+          "modificationTime": "2018-09-04T11:57:08.660271Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/minimatch/20160620/minimatch_20160620_0_1_6944abf9e0694bd22fd9dad293faa40c2bc8a955.patch"
+          ],
+          "version": "<=2.0.5 >0.0.5"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:minimatch:20160620:0",
+          "modificationTime": "2018-09-04T11:57:08.659029Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/minimatch/20160620/minimatch_20160620_0_0_6944abf9e0694bd22fd9dad293faa40c2bc8a955.patch"
+          ],
+          "version": "<=3.0.1 >2.0.5"
+        }
+      ],
+      "publicationTime": "2016-06-20T15:52:52Z",
+      "references": [
+        {
+          "title": "GITHUB.COM",
+          "url": "https://github.com/isaacs/minimatch/commit/6944abf9e0694bd22fd9dad293faa40c2bc8a955"
+        },
+        {
+          "title": "WWW.OWASP.ORG",
+          "url": "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<=3.0.1"
+        ]
+      },
+      "severity": "high",
+      "title": "Regular Expression Denial of Service (DoS)",
+      "from": [
+        "atom@atom/atom",
+        "scandal@3.1.0",
+        "minimatch@2.0.10"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        "minimatch@3.0.2"
+      ],
+      "version": "2.0.10",
+      "name": "minimatch",
+      "isUpgradable": false,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "alternativeIds": [
+        "SNYK-JS-MINIMATCH-10105"
+      ],
+      "creationTime": "2016-06-20T16:00:06.484000Z",
+      "credit": [
+        "Nick Starke"
+      ],
+      "cvssScore": 7.5,
+      "description": "## Overview\n[`minimatch`](https://www.npmjs.com/package/minimatch) is a minimalistic matching library used for converting glob expressions into JavaScript RegExp objects.\nAffected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) attacks.\n\nThe Regular expression Denial of Service (ReDoS) is a type of Denial of Service attack.  Many Regular Expression implementations may reach edge cases that causes them to work very slowly (exponentially related to input size), allowing an attacker to exploit this and can cause the program to enter these extreme situations by using a specially crafted input and cause the service to excessively consume CPU, resulting in a Denial of Service.\n\nAn attacker can provide a long value to the `minimatch` function, which nearly matches the pattern being matched. This will cause the regular expression matching to take a long time, all the while occupying the event loop and preventing it from processing other requests and making the server unavailable (a Denial of Service attack).\n\nYou can read more about `Regular Expression Denial of Service (ReDoS)` on our [blog](https://snyk.io/blog/redos-and-catastrophic-backtracking/).\n\n## Remediation\nUpgrade `minimatch` to version `3.0.2` or greater.\n\n## References\n- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n- https://github.com/isaacs/minimatch/commit/6944abf9e0694bd22fd9dad293faa40c2bc8a955\n",
+      "disclosureTime": "2016-06-20T15:52:52Z",
+      "id": "npm:minimatch:20160620",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-MINIMATCH-10105"
+        ],
+        "CVE": [
+          "CVE-2016-10540"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          118
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:44.478688Z",
+      "moduleName": "minimatch",
+      "packageManager": "npm",
+      "packageName": "minimatch",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:minimatch:20160620:1",
+          "modificationTime": "2018-09-04T11:57:08.660271Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/minimatch/20160620/minimatch_20160620_0_1_6944abf9e0694bd22fd9dad293faa40c2bc8a955.patch"
+          ],
+          "version": "<=2.0.5 >0.0.5"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:minimatch:20160620:0",
+          "modificationTime": "2018-09-04T11:57:08.659029Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/minimatch/20160620/minimatch_20160620_0_0_6944abf9e0694bd22fd9dad293faa40c2bc8a955.patch"
+          ],
+          "version": "<=3.0.1 >2.0.5"
+        }
+      ],
+      "publicationTime": "2016-06-20T15:52:52Z",
+      "references": [
+        {
+          "title": "GITHUB.COM",
+          "url": "https://github.com/isaacs/minimatch/commit/6944abf9e0694bd22fd9dad293faa40c2bc8a955"
+        },
+        {
+          "title": "WWW.OWASP.ORG",
+          "url": "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<=3.0.1"
+        ]
+      },
+      "severity": "high",
+      "title": "Regular Expression Denial of Service (DoS)",
+      "from": [
+        "atom@atom/atom",
+        "mocha@2.5.1",
+        "glob@3.2.11",
+        "minimatch@0.3.0"
+      ],
+      "upgradePath": [
+        false,
+        "mocha@3.0.0",
+        "glob@7.0.5",
+        "minimatch@3.0.2"
+      ],
+      "version": "0.3.0",
+      "name": "minimatch",
+      "isUpgradable": true,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "alternativeIds": [
+        "SNYK-JS-MINIMATCH-10105"
+      ],
+      "creationTime": "2016-06-20T16:00:06.484000Z",
+      "credit": [
+        "Nick Starke"
+      ],
+      "cvssScore": 7.5,
+      "description": "## Overview\n[`minimatch`](https://www.npmjs.com/package/minimatch) is a minimalistic matching library used for converting glob expressions into JavaScript RegExp objects.\nAffected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) attacks.\n\nThe Regular expression Denial of Service (ReDoS) is a type of Denial of Service attack.  Many Regular Expression implementations may reach edge cases that causes them to work very slowly (exponentially related to input size), allowing an attacker to exploit this and can cause the program to enter these extreme situations by using a specially crafted input and cause the service to excessively consume CPU, resulting in a Denial of Service.\n\nAn attacker can provide a long value to the `minimatch` function, which nearly matches the pattern being matched. This will cause the regular expression matching to take a long time, all the while occupying the event loop and preventing it from processing other requests and making the server unavailable (a Denial of Service attack).\n\nYou can read more about `Regular Expression Denial of Service (ReDoS)` on our [blog](https://snyk.io/blog/redos-and-catastrophic-backtracking/).\n\n## Remediation\nUpgrade `minimatch` to version `3.0.2` or greater.\n\n## References\n- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n- https://github.com/isaacs/minimatch/commit/6944abf9e0694bd22fd9dad293faa40c2bc8a955\n",
+      "disclosureTime": "2016-06-20T15:52:52Z",
+      "id": "npm:minimatch:20160620",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-MINIMATCH-10105"
+        ],
+        "CVE": [
+          "CVE-2016-10540"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          118
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:44.478688Z",
+      "moduleName": "minimatch",
+      "packageManager": "npm",
+      "packageName": "minimatch",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:minimatch:20160620:1",
+          "modificationTime": "2018-09-04T11:57:08.660271Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/minimatch/20160620/minimatch_20160620_0_1_6944abf9e0694bd22fd9dad293faa40c2bc8a955.patch"
+          ],
+          "version": "<=2.0.5 >0.0.5"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:minimatch:20160620:0",
+          "modificationTime": "2018-09-04T11:57:08.659029Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/minimatch/20160620/minimatch_20160620_0_0_6944abf9e0694bd22fd9dad293faa40c2bc8a955.patch"
+          ],
+          "version": "<=3.0.1 >2.0.5"
+        }
+      ],
+      "publicationTime": "2016-06-20T15:52:52Z",
+      "references": [
+        {
+          "title": "GITHUB.COM",
+          "url": "https://github.com/isaacs/minimatch/commit/6944abf9e0694bd22fd9dad293faa40c2bc8a955"
+        },
+        {
+          "title": "WWW.OWASP.ORG",
+          "url": "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<=3.0.1"
+        ]
+      },
+      "severity": "high",
+      "title": "Regular Expression Denial of Service (DoS)",
+      "from": [
+        "atom@atom/atom",
+        "jasmine-tagged@1.1.4",
+        "jasmine-focused@1.0.7",
+        "jasmine-node@git+https://github.com/kevinsawicki/jasmine-node.git#81af4f953a2b7dfb5bde8331c05362a4b464c5ef",
+        "gaze@0.3.4",
+        "fileset@0.1.8",
+        "glob@3.2.11",
+        "minimatch@0.3.0"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        false,
+        false,
+        "gaze@0.4.0"
+      ],
+      "version": "0.3.0",
+      "name": "minimatch",
+      "isUpgradable": false,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "alternativeIds": [
+        "SNYK-JS-MINIMATCH-10105"
+      ],
+      "creationTime": "2016-06-20T16:00:06.484000Z",
+      "credit": [
+        "Nick Starke"
+      ],
+      "cvssScore": 7.5,
+      "description": "## Overview\n[`minimatch`](https://www.npmjs.com/package/minimatch) is a minimalistic matching library used for converting glob expressions into JavaScript RegExp objects.\nAffected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) attacks.\n\nThe Regular expression Denial of Service (ReDoS) is a type of Denial of Service attack.  Many Regular Expression implementations may reach edge cases that causes them to work very slowly (exponentially related to input size), allowing an attacker to exploit this and can cause the program to enter these extreme situations by using a specially crafted input and cause the service to excessively consume CPU, resulting in a Denial of Service.\n\nAn attacker can provide a long value to the `minimatch` function, which nearly matches the pattern being matched. This will cause the regular expression matching to take a long time, all the while occupying the event loop and preventing it from processing other requests and making the server unavailable (a Denial of Service attack).\n\nYou can read more about `Regular Expression Denial of Service (ReDoS)` on our [blog](https://snyk.io/blog/redos-and-catastrophic-backtracking/).\n\n## Remediation\nUpgrade `minimatch` to version `3.0.2` or greater.\n\n## References\n- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n- https://github.com/isaacs/minimatch/commit/6944abf9e0694bd22fd9dad293faa40c2bc8a955\n",
+      "disclosureTime": "2016-06-20T15:52:52Z",
+      "id": "npm:minimatch:20160620",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-MINIMATCH-10105"
+        ],
+        "CVE": [
+          "CVE-2016-10540"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          118
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:44.478688Z",
+      "moduleName": "minimatch",
+      "packageManager": "npm",
+      "packageName": "minimatch",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:minimatch:20160620:1",
+          "modificationTime": "2018-09-04T11:57:08.660271Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/minimatch/20160620/minimatch_20160620_0_1_6944abf9e0694bd22fd9dad293faa40c2bc8a955.patch"
+          ],
+          "version": "<=2.0.5 >0.0.5"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:minimatch:20160620:0",
+          "modificationTime": "2018-09-04T11:57:08.659029Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/minimatch/20160620/minimatch_20160620_0_0_6944abf9e0694bd22fd9dad293faa40c2bc8a955.patch"
+          ],
+          "version": "<=3.0.1 >2.0.5"
+        }
+      ],
+      "publicationTime": "2016-06-20T15:52:52Z",
+      "references": [
+        {
+          "title": "GITHUB.COM",
+          "url": "https://github.com/isaacs/minimatch/commit/6944abf9e0694bd22fd9dad293faa40c2bc8a955"
+        },
+        {
+          "title": "WWW.OWASP.ORG",
+          "url": "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<=3.0.1"
+        ]
+      },
+      "severity": "high",
+      "title": "Regular Expression Denial of Service (DoS)",
+      "from": [
+        "atom@atom/atom",
+        "jasmine-tagged@1.1.4",
+        "jasmine-focused@1.0.7",
+        "jasmine-node@git+https://github.com/kevinsawicki/jasmine-node.git#81af4f953a2b7dfb5bde8331c05362a4b464c5ef",
+        "gaze@0.3.4",
+        "fileset@0.1.8",
+        "minimatch@0.4.0"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        false,
+        false,
+        "gaze@0.4.0"
+      ],
+      "version": "0.4.0",
+      "name": "minimatch",
+      "isUpgradable": false,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "alternativeIds": [
+        "SNYK-JS-MINIMATCH-10105"
+      ],
+      "creationTime": "2016-06-20T16:00:06.484000Z",
+      "credit": [
+        "Nick Starke"
+      ],
+      "cvssScore": 7.5,
+      "description": "## Overview\n[`minimatch`](https://www.npmjs.com/package/minimatch) is a minimalistic matching library used for converting glob expressions into JavaScript RegExp objects.\nAffected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) attacks.\n\nThe Regular expression Denial of Service (ReDoS) is a type of Denial of Service attack.  Many Regular Expression implementations may reach edge cases that causes them to work very slowly (exponentially related to input size), allowing an attacker to exploit this and can cause the program to enter these extreme situations by using a specially crafted input and cause the service to excessively consume CPU, resulting in a Denial of Service.\n\nAn attacker can provide a long value to the `minimatch` function, which nearly matches the pattern being matched. This will cause the regular expression matching to take a long time, all the while occupying the event loop and preventing it from processing other requests and making the server unavailable (a Denial of Service attack).\n\nYou can read more about `Regular Expression Denial of Service (ReDoS)` on our [blog](https://snyk.io/blog/redos-and-catastrophic-backtracking/).\n\n## Remediation\nUpgrade `minimatch` to version `3.0.2` or greater.\n\n## References\n- https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS\n- https://github.com/isaacs/minimatch/commit/6944abf9e0694bd22fd9dad293faa40c2bc8a955\n",
+      "disclosureTime": "2016-06-20T15:52:52Z",
+      "id": "npm:minimatch:20160620",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-MINIMATCH-10105"
+        ],
+        "CVE": [
+          "CVE-2016-10540"
+        ],
+        "CWE": [
+          "CWE-400"
+        ],
+        "NSP": [
+          118
+        ]
+      },
+      "language": "js",
+      "modificationTime": "2018-09-03T13:22:44.478688Z",
+      "moduleName": "minimatch",
+      "packageManager": "npm",
+      "packageName": "minimatch",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:minimatch:20160620:1",
+          "modificationTime": "2018-09-04T11:57:08.660271Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/minimatch/20160620/minimatch_20160620_0_1_6944abf9e0694bd22fd9dad293faa40c2bc8a955.patch"
+          ],
+          "version": "<=2.0.5 >0.0.5"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:minimatch:20160620:0",
+          "modificationTime": "2018-09-04T11:57:08.659029Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/minimatch/20160620/minimatch_20160620_0_0_6944abf9e0694bd22fd9dad293faa40c2bc8a955.patch"
+          ],
+          "version": "<=3.0.1 >2.0.5"
+        }
+      ],
+      "publicationTime": "2016-06-20T15:52:52Z",
+      "references": [
+        {
+          "title": "GITHUB.COM",
+          "url": "https://github.com/isaacs/minimatch/commit/6944abf9e0694bd22fd9dad293faa40c2bc8a955"
+        },
+        {
+          "title": "WWW.OWASP.ORG",
+          "url": "https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<=3.0.1"
+        ]
+      },
+      "severity": "high",
+      "title": "Regular Expression Denial of Service (DoS)",
+      "from": [
+        "atom@atom/atom",
+        "jasmine-tagged@1.1.4",
+        "jasmine-focused@1.0.7",
+        "jasmine-node@git+https://github.com/kevinsawicki/jasmine-node.git#81af4f953a2b7dfb5bde8331c05362a4b464c5ef",
+        "gaze@0.3.4",
+        "minimatch@0.2.14"
+      ],
+      "upgradePath": [
+        false,
+        false,
+        false,
+        false,
+        "gaze@0.4.0"
+      ],
+      "version": "0.2.14",
+      "name": "minimatch",
+      "isUpgradable": false,
+      "isPatchable": true
+    },
+    {
+      "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "alternativeIds": [
+        "SNYK-JS-MS-10509"
+      ],
+      "creationTime": "2017-04-12T10:02:45.497000Z",
+      "credit": [
+        "Snyk Security Research Team"
+      ],
+      "cvssScore": 3.7,
+      "description": "## Overview\r\n[`ms`](https://www.npmjs.com/package/ms) is a tiny millisecond conversion utility.\r\n\r\nAffected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) due to an incomplete fix for previously reported vulnerability [npm:ms:20151024](https://snyk.io/vuln/npm:ms:20151024). The fix limited the length of accepted input string to 10,000 characters, and turned to be insufficient making it possible to block the event loop for 0.3 seconds (on a typical laptop) with a specially crafted string passed to `ms()` function.\r\n\r\n*Proof of concept*\r\n```js\r\nms = require('ms');\r\nms('1'.repeat(9998) + 'Q') // Takes about ~0.3s\r\n```\r\n\r\n**Note:** Snyk's patch for this vulnerability limits input length to 100 characters. This new limit was deemed to be a breaking change by the author.\r\nBased on user feedback, we believe the risk of breakage is _very_ low, while the value to your security is much greater, and therefore opted to still capture this change in a patch for earlier versions as well.  Whenever patching security issues, we always suggest to run tests on your code to validate that nothing has been broken.\r\n\r\nFor more information on `Regular Expression Denial of Service (ReDoS)` attacks, go to our [blog](https://snyk.io/blog/redos-and-catastrophic-backtracking/).\r\n\r\n## Disclosure Timeline\r\n- Feb 9th, 2017 - Reported the issue to package owner.\r\n- Feb 11th, 2017 - Issue acknowledged by package owner.\r\n- April 12th, 2017 - Fix PR opened by Snyk Security Team.\r\n- May 15th, 2017 - Vulnerability published.\r\n- May 16th, 2017 - Issue fixed and version `2.0.0` released.\r\n- May 21th, 2017 - Patches released for versions `>=0.7.1, <=1.0.0`.\r\n\r\n## Details\r\nDenial of Service (DoS) describes a family of attacks, all aimed at making a system inaccessible to its original and legitimate users. There are many types of DoS attacks, ranging from trying to clog the network pipes to the system by generating a large volume of traffic from many machines (a Distributed Denial of Service - DDoS - attack) to sending crafted requests that cause a system to crash or take a disproportional amount of time to process.\r\n\r\nThe Regular expression Denial of Service (ReDoS) is a type of Denial of Service attack. Regular expressions are incredibly powerful, but they aren't very intuitive and can ultimately end up making it easy for attackers to take your site down.\r\n\r\nLet’s take the following regular expression as an example:\r\n```js\r\nregex = /A(B|C+)+D/\r\n```\r\n\r\nThis regular expression accomplishes the following:\r\n- `A` The string must start with the letter 'A'\r\n- `(B|C+)+` The string must then follow the letter A with either the letter 'B' or some number of occurrences of the letter 'C' (the `+` matches one or more times). The `+` at the end of this section states that we can look for one or more matches of this section.\r\n- `D` Finally, we ensure this section of the string ends with a 'D'\r\n\r\nThe expression would match inputs such as `ABBD`, `ABCCCCD`, `ABCBCCCD` and `ACCCCCD`\r\n\r\nIt most cases, it doesn't take very long for a regex engine to find a match:\r\n\r\n```bash\r\n$ time node -e '/A(B|C+)+D/.test(\"ACCCCCCCCCCCCCCCCCCCCCCCCCCCCD\")'\r\n0.04s user 0.01s system 95% cpu 0.052 total\r\n\r\n$ time node -e '/A(B|C+)+D/.test(\"ACCCCCCCCCCCCCCCCCCCCCCCCCCCCX\")'\r\n1.79s user 0.02s system 99% cpu 1.812 total\r\n```\r\n\r\nThe entire process of testing it against a 30 characters long string takes around ~52ms. But when given an invalid string, it takes nearly two seconds to complete the test, over ten times as long as it took to test a valid string. The dramatic difference is due to the way regular expressions get evaluated.\r\n\r\nMost Regex engines will work very similarly (with minor differences). The engine will match the first possible way to accept the current character and proceed to the next one. If it then fails to match the next one, it will backtrack and see if there was another way to digest the previous character. If it goes too far down the rabbit hole only to find out the string doesn’t match in the end, and if many characters have multiple valid regex paths, the number of backtracking steps can become very large, resulting in what is known as _catastrophic backtracking_.\r\n\r\nLet's look at how our expression runs into this problem, using a shorter string: \"ACCCX\". While it seems fairly straightforward, there are still four different ways that the engine could match those three C's:\r\n1. CCC\r\n2. CC+C\r\n3. C+CC\r\n4. C+C+C.\r\n\r\nThe engine has to try each of those combinations to see if any of them potentially match against the expression. When you combine that with the other steps the engine must take, we can use [RegEx 101 debugger](https://regex101.com/debugger) to see the engine has to take a total of 38 steps before it can determine the string doesn't match.\r\n\r\nFrom there, the number of steps the engine must use to validate a string just continues to grow.\r\n\r\n| String | Number of C's | Number of steps |\r\n| -------|-------------:| -----:|\r\n| ACCCX | 3 | 38\r\n| ACCCCX | 4 | 71\r\n| ACCCCCX | 5 | 136\r\n| ACCCCCCCCCCCCCCX | 14 | 65,553\r\n\r\n\r\nBy the time the string includes 14 C's, the engine has to take over 65,000 steps just to see if the string is valid. These extreme situations can cause them to work very slowly (exponentially related to input size, as shown above), allowing an attacker to exploit this and can cause the service to excessively consume CPU, resulting in a Denial of Service.\r\n\r\n\r\n## Remediation\r\nUpgrade `ms` to version 2.0.0 or higher.\r\n\r\n## References\r\n- [GitHub PR](https://github.com/zeit/ms/pull/89)\r\n- [GitHub Commit](https://github.com/zeit/ms/pull/89/commits/305f2ddcd4eff7cc7c518aca6bb2b2d2daad8fef)",
+      "disclosureTime": "2017-04-11T21:00:00Z",
+      "id": "npm:ms:20170412",
+      "identifiers": {
+        "ALTERNATIVE": [
+          "SNYK-JS-MS-10509"
+        ],
+        "CVE": [],
+        "CWE": [
+          "CWE-400"
+        ]
+      },
+      "language": "js",
+      "method": {
+        "index.js": [
+          {
+            "name": [
+              "parse"
+            ],
+            "semver": [
+              "<2.0.0"
+            ]
+          }
+        ]
+      },
+      "modificationTime": "2018-09-03T13:22:46.135744Z",
+      "moduleName": "ms",
+      "packageManager": "npm",
+      "packageName": "ms",
+      "patches": [
+        {
+          "comments": [],
+          "id": "patch:npm:ms:20170412:2",
+          "modificationTime": "2018-09-04T11:57:08.696913Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/ms/20170412/ms_071.patch"
+          ],
+          "version": "=0.7.1"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:ms:20170412:1",
+          "modificationTime": "2018-09-04T11:57:08.695549Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/ms/20170412/ms_072-073.patch"
+          ],
+          "version": "=0.7.2 || =0.7.3"
+        },
+        {
+          "comments": [],
+          "id": "patch:npm:ms:20170412:0",
+          "modificationTime": "2018-09-04T11:57:08.694191Z",
+          "urls": [
+            "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/ms/20170412/ms_100.patch"
+          ],
+          "version": "=1.0.0"
+        }
+      ],
+      "publicationTime": "2017-05-15T06:02:45Z",
+      "references": [
+        {
+          "title": "GitHub Commit",
+          "url": "https://github.com/zeit/ms/pull/89/commits/305f2ddcd4eff7cc7c518aca6bb2b2d2daad8fef"
+        },
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/zeit/ms/pull/89"
+        }
+      ],
+      "semver": {
+        "vulnerable": [
+          "<2.0.0"
+        ]
+      },
+      "severity": "low",
+      "title": "Regular Expression Denial of Service (ReDoS)",
+      "from": [
+        "atom@atom/atom",
+        "mocha@2.5.1",
+        "debug@2.2.0",
+        "ms@0.7.1"
+      ],
+      "upgradePath": [
+        false,
+        "mocha@3.5.0",
+        "debug@2.6.8",
+        "ms@2.0.0"
+      ],
+      "version": "0.7.1",
+      "name": "ms",
+      "isUpgradable": true,
+      "isPatchable": true
+    }
+  ],
+  "numDependencies": 453,
+  "severityMap": {
+    "high": 2,
+    "medium": 2,
+    "low": 5
+  },
+  "org": "fghiasy",
+  "packageManager": "npm",
+  "summary": "24 vulnerable dependency paths",
+  "filtered": {
+    "ignore": [],
+    "patch": []
+  },
+  "uniqueCount": 9,
+  "path": "https://github.com/atom/atom"
+}
